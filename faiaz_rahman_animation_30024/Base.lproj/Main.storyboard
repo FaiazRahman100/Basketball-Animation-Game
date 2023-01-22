@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="faiaz_rahman_animation_30024" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nbaPlayer" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-ki-2AE">
+                                <rect key="frame" x="87" y="248" width="240" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="9sd-C5-0S1"/>
+                                    <constraint firstAttribute="width" constant="240" id="ga2-xD-9XT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketballpost" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9mL-cK-uMf">
+                                <rect key="frame" x="-0.5" y="97.5" width="150" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="4mk-pS-WhZ"/>
+                                    <constraint firstAttribute="width" constant="150" id="Sxw-dc-BhP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball" translatesAutoresizingMaskIntoConstraints="NO" id="zrG-QO-NWR">
+                                <rect key="frame" x="172" y="726" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="9cD-cc-Ttr"/>
+                                    <constraint firstAttribute="height" constant="70" id="gLw-ly-xX1"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtZ-dQ-Yu7">
+                                <rect key="frame" x="10" y="826" width="70" height="50"/>
+                                <color key="tintColor" red="0.73983166879999995" green="0.36464813039999999" blue="0.14898906570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.left" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="leftBall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jFD-2i-tRs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-XP-riA">
+                                <rect key="frame" x="324" y="826" width="70" height="50"/>
+                                <color key="tintColor" red="0.73983166879999995" green="0.36464813039999999" blue="0.14898906570000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrow.right" catalog="system">
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="rightBall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h3S-TV-r9O"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgX-vH-vm0">
+                                <rect key="frame" x="65.5" y="52" width="283" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Faiaz Basketball Arena">
+                                        <attributes>
+                                            <color key="NSColor" red="0.47617936129999999" green="0.0" blue="0.0011187451890000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="AmericanTypewriter-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="O9o-XP-riA" secondAttribute="trailing" constant="20" id="7Gs-KJ-zIS"/>
+                            <constraint firstItem="zrG-QO-NWR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7yc-Lg-Cy8"/>
+                            <constraint firstItem="zX4-ki-2AE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9Q9-c4-cMF"/>
+                            <constraint firstItem="zrG-QO-NWR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="313" id="BgE-2r-V4S"/>
+                            <constraint firstAttribute="bottom" secondItem="CtZ-dQ-Yu7" secondAttribute="bottom" constant="20" id="OmQ-kX-JCo"/>
+                            <constraint firstItem="9mL-cK-uMf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-132.5" id="YdL-pj-Q4K"/>
+                            <constraint firstItem="lgX-vH-vm0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="arO-t5-mOV"/>
+                            <constraint firstItem="zX4-ki-2AE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b9e-2e-Trj"/>
+                            <constraint firstItem="CtZ-dQ-Yu7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="r7F-3c-IzF"/>
+                            <constraint firstItem="lgX-vH-vm0" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-381" id="t0V-fS-Ykl"/>
+                            <constraint firstItem="9mL-cK-uMf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-280.5" id="uuf-zE-gab"/>
+                            <constraint firstAttribute="bottom" secondItem="O9o-XP-riA" secondAttribute="bottom" constant="20" id="yAE-Ch-9EO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="zX4-ki-2AE" id="CQg-5F-nhE"/>
+                        <outlet property="ballConstrainHorizontal" destination="BgE-2r-V4S" id="pi8-8Y-SSf"/>
+                        <outlet property="ballContrain" destination="7yc-Lg-Cy8" id="iIX-bz-fX4"/>
+                        <outlet property="ballImage" destination="zrG-QO-NWR" id="pV7-Nc-xfa"/>
+                        <outlet property="basketImage" destination="9mL-cK-uMf" id="fh5-x6-Ifv"/>
+                        <outlet property="topImageConstrain" destination="YdL-pj-Q4K" id="zEd-0O-1cb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="arrow.right" catalog="system" width="128" height="98"/>
+        <image name="basketball" width="820" height="820"/>
+        <image name="basketballpost" width="512" height="511"/>
+        <image name="nbaPlayer" width="564" height="818"/>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
